@@ -1,0 +1,16 @@
+{
+  "name": "obsidian-vault-sync",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": {
+    "vaultsync": "./vaultsync.js"
+  },
+  "scripts": {
+    "start": "node watcher.js"
+  },
+  "dependencies": {
+    "chokidar": "^4.0.3",
+    "simple-git": "^3.27.0",
+    "dotenv": "^16.4.7"
+  }
+}

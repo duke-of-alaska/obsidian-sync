@@ -1,0 +1,11 @@
+# Obsidian workspace (device-local state)
+.obsidian/workspace*
+
+# Trash
+.trash/
+
+# Sync system
+node_modules/
+.env
+npm-debug.log*
+vaultsync.log
